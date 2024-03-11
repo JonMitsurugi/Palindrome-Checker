@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, input {
+    font-family: "IBM Plex Mono", monospace;
+    font-style: normal;
+}
+main {
+    display: flex;
+    justify-content: center;
+    
+}
+h1 {
+    font-weight: 700;
+}
+#check-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#text-input {
+    appearance: none;
+    border: none;
+    font-size: 16px;
+    /* font-family: "IBM Plex Mono", monospace;; */
+}
